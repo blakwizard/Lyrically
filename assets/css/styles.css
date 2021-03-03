@@ -1,0 +1,151 @@
+body {
+  background-image: linear-gradient(rgba(99,15,66,0.8), rgba(14,89,89,0.65)),url(../../assets/img/bruce-mars-DBGwy7s3QY0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-position: center;
+  }
+}
+
+
+.title {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    font-style: italic;
+  }
+}
+
+.header p {
+  font-size: 22px;
+  color: #00e0ff;
+  margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+  .header p {
+    font-size: 20px;
+    color: #00e0ff;
+    margin-top: 1px;
+    padding: 20px;
+  }
+}
+
+.lyrics-form {
+  display: flex;
+  margin-top: 35px;
+}
+
+@media (max-width: 576px) {
+  .lyrics-form {
+    margin-top: 25px;
+  }
+}
+
+.lyrics-form #btn {
+  padding: 9px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  outline: none;
+  background: rgb(0,29,45);
+  border-radius: 9px;
+}
+
+.lyrics-form #btn:hover {
+  background: #157b5d;
+}
+
+.lyrics-form #btn:active {
+  background: #157b5d;
+  outline: none !important;
+  border: none !important;
+}
+
+#lyricsInput {
+  width: 50%;
+  padding: 24px !important;
+  margin-left: 20%;
+  border-radius: 25px 0;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  #lyricsInput {
+    width: 100%;
+    padding: 22px !important;
+    margin-left: 0 !important;
+    text-transform: capitalize;
+  }
+}
+
+.displayLyrics {
+  text-align: center;
+  margin-top: 30px;
+  background: rgba(0,0,0,0.4);
+  color: #f2f2f2;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  .displayLyrics {
+    margin-top: 30px;
+    padding: 22px;
+    line-height: 35px;
+  }
+}
+
+#hint {
+  color: #bfbfbf;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.getlyric {
+  padding: 6px 17px;
+  background: rgb(0,29,45);
+  border-radius: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  text-align: center !important;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 4px 0;
+}
+
